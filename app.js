@@ -1,5 +1,6 @@
-alert('dude js is working!');
 
-let btnDo=document.getElementById('btnDo');
+const buttons = document.querySelectorAll('button');
+buttons.forEach(
+    button => button.addEventListener('click',alert('NERD ALERT!'))
 
-btnDo.addeEventListener('click',()=>{console.log('hola boton')})
+);
