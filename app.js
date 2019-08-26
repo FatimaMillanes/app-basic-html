@@ -1,6 +1,11 @@
 
 const buttons = document.querySelectorAll('button');
-buttons.forEach(
-    button => button.addEventListener('click',alert('NERD ALERT!'))
 
+const playnote = event=>{
+    console.log(event);
+    alert('hola');
+    
+}
+buttons.forEach(
+    button => button.addEventListener('click',func)
 );
