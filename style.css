@@ -16,13 +16,13 @@ button
     width:80px;
     height:400px;
     background-color:#ffffff;
-    color:#00000000;
+    color:black;
 
 }
 
 button.sharp
 {
-    width:80px;
+    width:50px;
     background-color:black;
     color:#ffff;
 
